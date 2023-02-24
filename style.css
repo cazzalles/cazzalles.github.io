@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/*
+font-family: 'Alegreya', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.red {
+    color: #FF5757;
+}
+
+.white {
+    color: #ffffff;
+}
+
+::selection {
+    color: #FFFFFF;
+    background: #FF5757;
+}
+
+
+.mail {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+div.container, div.container-fluid {
+    text-align: center;  
+}
+
+div#press div.col {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+div.scaled {
+   padding-top: 10%;
+}
+
+div.scaled-bot {
+    padding-bottom: 10%;
+}
+
+div.full-scaled-md {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img.full-scaled-md {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img#bilbo {
+    width: 70%;
+    height: auto;
+}
+
+img.low {
+    width: 90%;
+    height: auto;
+}
+
+img.mg {
+    margin-bottom: 5%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*div.container-fluid img.img-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}*/
